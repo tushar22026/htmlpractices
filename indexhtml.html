@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit" method="post" autocomplete="on">
+    <label for="firstName">First Name</label><br>
+    <input type="text" id="firstName" name="first_name" required><br><br>
+
+    <label for="lastName">Last Name</label><br>
+    <input type="text" id="lastName" name="last_name" required><br><br>
+
+    <label for="password">Password</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label><b>Gender:</b></label>
+    <input type="radio" id="male" name="gender" value="Male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Religion -->
+    <label><b>Religion:</b>b></label>
+    <input type="radio" id="muslim" name="religion" value="Muslim" required>
+    <label for="muslim">Muslim</label>
+    <input type="radio" id="nonMuslim" name="religion" value="Non-Muslim">
+    <label for="nonMuslim">Non-Muslim</label><br><br>
+
+    <button type="Login">Login</button>
+    </form>
+</body>
+</html>
